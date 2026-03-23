@@ -383,6 +383,26 @@ a {
   line-height: 1.7;
 }
 
+.project-tech {
+  margin-top: 1.15rem;
+}
+
+.project-tech h4 {
+  margin: 0 0 0.45rem;
+  font-size: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.project-tech p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.project-actions {
+  margin-top: 1.25rem;
+}
+
 .project-topline {
   display: flex;
   align-items: center;
