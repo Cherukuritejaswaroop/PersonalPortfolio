@@ -1,0 +1,46 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FFFFFF"/>
+  <text x="600" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1F1D1A">When ML or DL Becomes the Better Choice</text>
+  <text x="80" y="360" transform="rotate(-90 80 360)" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#665D54">Approach Suitability</text>
+  <text x="620" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#665D54">Data Complexity and Unstructured Signal</text>
+  <line x1="140" y1="620" x2="1100" y2="620" stroke="#3F362C" stroke-width="2"/>
+  <line x1="140" y1="130" x2="140" y2="620" stroke="#3F362C" stroke-width="2"/>
+  <g stroke="#D7D1C7" stroke-width="1">
+    <line x1="140" y1="620" x2="1100" y2="620"/>
+    <line x1="140" y1="522" x2="1100" y2="522"/>
+    <line x1="140" y1="424" x2="1100" y2="424"/>
+    <line x1="140" y1="326" x2="1100" y2="326"/>
+    <line x1="140" y1="228" x2="1100" y2="228"/>
+    <line x1="140" y1="130" x2="1100" y2="130"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#665D54">
+    <text x="120" y="626" text-anchor="end">0</text>
+    <text x="120" y="528" text-anchor="end">2</text>
+    <text x="120" y="430" text-anchor="end">4</text>
+    <text x="120" y="332" text-anchor="end">6</text>
+    <text x="120" y="234" text-anchor="end">8</text>
+    <text x="120" y="136" text-anchor="end">10</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">
+    <text x="190" y="660" text-anchor="middle">Very Low</text>
+    <text x="370" y="660" text-anchor="middle">Low</text>
+    <text x="550" y="660" text-anchor="middle">Moderate</text>
+    <text x="730" y="660" text-anchor="middle">High</text>
+    <text x="910" y="660" text-anchor="middle">Very High</text>
+    <text x="1090" y="660" text-anchor="middle">Extreme</text>
+  </g>
+  <polyline points="190,169 370,189 550,238 730,316 910,385 1090,444" fill="none" stroke="#114B5F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="190,448 370,394 550,336 730,267 910,203 1090,164" fill="none" stroke="#D97706" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#114B5F">
+    <circle cx="190" cy="169" r="8"/><circle cx="370" cy="189" r="8"/><circle cx="550" cy="238" r="8"/><circle cx="730" cy="316" r="8"/><circle cx="910" cy="385" r="8"/><circle cx="1090" cy="444" r="8"/>
+  </g>
+  <g fill="#D97706">
+    <circle cx="190" cy="448" r="8"/><circle cx="370" cy="394" r="8"/><circle cx="550" cy="336" r="8"/><circle cx="730" cy="267" r="8"/><circle cx="910" cy="203" r="8"/><circle cx="1090" cy="164" r="8"/>
+  </g>
+  <g>
+    <rect x="840" y="92" width="22" height="22" rx="4" fill="#114B5F"/>
+    <text x="874" y="109" font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">Machine Learning</text>
+    <rect x="1030" y="92" width="22" height="22" rx="4" fill="#D97706"/>
+    <text x="1064" y="109" font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">Deep Learning</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FFFFFF"/>
+  <text x="600" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1F1D1A">ML vs DL Across Common Decision Factors</text>
+  <text x="80" y="360" transform="rotate(-90 80 360)" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#665D54">Conceptual Strength Score</text>
+  <line x1="140" y1="620" x2="1100" y2="620" stroke="#3F362C" stroke-width="2"/>
+  <line x1="140" y1="130" x2="140" y2="620" stroke="#3F362C" stroke-width="2"/>
+  <g stroke="#D7D1C7" stroke-width="1">
+    <line x1="140" y1="620" x2="1100" y2="620"/>
+    <line x1="140" y1="522" x2="1100" y2="522"/>
+    <line x1="140" y1="424" x2="1100" y2="424"/>
+    <line x1="140" y1="326" x2="1100" y2="326"/>
+    <line x1="140" y1="228" x2="1100" y2="228"/>
+    <line x1="140" y1="130" x2="1100" y2="130"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#665D54">
+    <text x="120" y="626" text-anchor="end">0</text>
+    <text x="120" y="528" text-anchor="end">2</text>
+    <text x="120" y="430" text-anchor="end">4</text>
+    <text x="120" y="332" text-anchor="end">6</text>
+    <text x="120" y="234" text-anchor="end">8</text>
+    <text x="120" y="136" text-anchor="end">10</text>
+  </g>
+  <g>
+    <rect x="190" y="179" width="56" height="441" fill="#0F766E"/>
+    <rect x="252" y="375" width="56" height="245" fill="#D97706"/>
+    <rect x="360" y="179" width="56" height="441" fill="#0F766E"/>
+    <rect x="422" y="424" width="56" height="196" fill="#D97706"/>
+    <rect x="530" y="228" width="56" height="392" fill="#0F766E"/>
+    <rect x="592" y="424" width="56" height="196" fill="#D97706"/>
+    <rect x="700" y="473" width="56" height="147" fill="#0F766E"/>
+    <rect x="762" y="130" width="56" height="490" fill="#D97706"/>
+    <rect x="870" y="326" width="56" height="294" fill="#0F766E"/>
+    <rect x="932" y="179" width="56" height="441" fill="#D97706"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">
+    <text x="250" y="662" text-anchor="middle">Structured</text>
+    <text x="250" y="688" text-anchor="middle">Data</text>
+    <text x="420" y="662" text-anchor="middle">Interpretability</text>
+    <text x="590" y="662" text-anchor="middle">Speed</text>
+    <text x="760" y="662" text-anchor="middle">Image Tasks</text>
+    <text x="930" y="662" text-anchor="middle">Scalability</text>
+  </g>
+  <g>
+    <rect x="840" y="92" width="22" height="22" rx="4" fill="#0F766E"/>
+    <text x="874" y="109" font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">Machine Learning</text>
+    <rect x="1030" y="92" width="22" height="22" rx="4" fill="#D97706"/>
+    <text x="1064" y="109" font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">Deep Learning</text>
+  </g>
+</svg>
