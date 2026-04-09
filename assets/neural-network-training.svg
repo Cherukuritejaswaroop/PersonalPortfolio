@@ -1,0 +1,52 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#FCFCFD"/>
+  <text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#222222">Neural Network Accuracy Improves Over Training</text>
+
+  <rect x="140" y="160" width="900" height="430" rx="20" fill="#FFFFFF" stroke="#E9EEF2" stroke-width="2"/>
+
+  <g stroke="#DDE5EA" stroke-width="2">
+    <line x1="220" y1="210" x2="220" y2="535"/>
+    <line x1="220" y1="535" x2="960" y2="535"/>
+    <line x1="220" y1="470" x2="960" y2="470"/>
+    <line x1="220" y1="405" x2="960" y2="405"/>
+    <line x1="220" y1="340" x2="960" y2="340"/>
+    <line x1="220" y1="275" x2="960" y2="275"/>
+    <line x1="220" y1="210" x2="960" y2="210"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="18" fill="#666666">
+    <text x="184" y="540">50</text>
+    <text x="184" y="475">58</text>
+    <text x="184" y="410">66</text>
+    <text x="184" y="345">74</text>
+    <text x="184" y="280">82</text>
+    <text x="184" y="215">90</text>
+    <text x="220" y="572">1</text>
+    <text x="341" y="572">5</text>
+    <text x="448" y="572">10</text>
+    <text x="573" y="572">20</text>
+    <text x="699" y="572">30</text>
+    <text x="822" y="572">40</text>
+    <text x="944" y="572">50</text>
+  </g>
+
+  <text x="590" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#555555">Training Epochs</text>
+  <text x="92" y="392" transform="rotate(-90 92 392)" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#555555">Model Accuracy (%)</text>
+
+  <polyline points="224,503 347,438 470,372 595,291 719,250 842,224 957,200" fill="none" stroke="#3D8079" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#3D8079">
+    <circle cx="224" cy="503" r="7"/>
+    <circle cx="347" cy="438" r="7"/>
+    <circle cx="470" cy="372" r="7"/>
+    <circle cx="595" cy="291" r="7"/>
+    <circle cx="719" cy="250" r="7"/>
+    <circle cx="842" cy="224" r="7"/>
+    <circle cx="957" cy="200" r="7"/>
+  </g>
+
+  <g transform="translate(708 158)">
+    <rect width="220" height="52" rx="18" fill="#F4F8F7"/>
+    <text x="110" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#5C7370">Key Insight</text>
+    <text x="110" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6E7C7A">The network improves as it learns patterns</text>
+  </g>
+</svg>

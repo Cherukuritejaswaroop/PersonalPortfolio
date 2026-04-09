@@ -1,0 +1,65 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#0F1724"/>
+  <rect x="40" y="40" width="1120" height="640" rx="24" fill="#131D2D" stroke="#22344D" stroke-width="2"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#F5F7FB">Neural Network Training Dashboard</text>
+  <text x="80" y="132" font-family="Arial, sans-serif" font-size="15" letter-spacing="3" fill="#7ED3C7">MODEL LEARNING · ACCURACY TREND · TRAINING SIGNALS</text>
+
+  <g transform="translate(80 180)">
+    <rect width="220" height="120" rx="22" fill="#172638" stroke="#2A3B55" stroke-width="2"/>
+    <text x="28" y="40" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Accuracy</text>
+    <text x="28" y="86" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#98F5E1">91.2%</text>
+  </g>
+  <g transform="translate(330 180)">
+    <rect width="220" height="120" rx="22" fill="#172638" stroke="#2A3B55" stroke-width="2"/>
+    <text x="28" y="40" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Epochs</text>
+    <text x="28" y="86" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#8FB8FF">50</text>
+  </g>
+  <g transform="translate(580 180)">
+    <rect width="220" height="120" rx="22" fill="#172638" stroke="#2A3B55" stroke-width="2"/>
+    <text x="28" y="40" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Loss Reduction</text>
+    <text x="28" y="86" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#FFD166">-38%</text>
+  </g>
+  <g transform="translate(830 180)">
+    <rect width="250" height="120" rx="22" fill="#172638" stroke="#2A3B55" stroke-width="2"/>
+    <text x="28" y="40" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Pattern Confidence</text>
+    <text x="28" y="86" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#CFA6FF">High</text>
+  </g>
+
+  <g transform="translate(80 340)">
+    <rect width="700" height="280" rx="24" fill="#121C2B" stroke="#293B55" stroke-width="2"/>
+    <text x="28" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#DDE7F1">Accuracy Improves Over Training</text>
+    <g stroke="#26374F" stroke-width="2">
+      <line x1="70" y1="58" x2="70" y2="230"/>
+      <line x1="70" y1="230" x2="660" y2="230"/>
+      <line x1="70" y1="196" x2="660" y2="196"/>
+      <line x1="70" y1="162" x2="660" y2="162"/>
+      <line x1="70" y1="128" x2="660" y2="128"/>
+      <line x1="70" y1="94" x2="660" y2="94"/>
+    </g>
+    <polyline points="80,214 170,180 260,142 350,104 440,82 530,64 620,50" fill="none" stroke="#5DD0C0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#5DD0C0">
+      <circle cx="80" cy="214" r="6"/>
+      <circle cx="170" cy="180" r="6"/>
+      <circle cx="260" cy="142" r="6"/>
+      <circle cx="350" cy="104" r="6"/>
+      <circle cx="440" cy="82" r="6"/>
+      <circle cx="530" cy="64" r="6"/>
+      <circle cx="620" cy="50" r="6"/>
+    </g>
+  </g>
+
+  <g transform="translate(820 340)">
+    <rect width="260" height="280" rx="24" fill="#121C2B" stroke="#293B55" stroke-width="2"/>
+    <text x="28" y="38" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#DDE7F1">Learning Signals</text>
+    <g transform="translate(28 74)">
+      <rect width="204" height="42" rx="14" fill="#1A2A3E"/>
+      <text x="18" y="27" font-family="Arial, sans-serif" font-size="16" fill="#AAB6C8">Pattern detection</text>
+      <rect y="58" width="204" height="42" rx="14" fill="#1A2A3E"/>
+      <text x="18" y="85" font-family="Arial, sans-serif" font-size="16" fill="#AAB6C8">Weight updates</text>
+      <rect y="116" width="204" height="42" rx="14" fill="#1A2A3E"/>
+      <text x="18" y="143" font-family="Arial, sans-serif" font-size="16" fill="#AAB6C8">Feedback correction</text>
+      <rect y="174" width="204" height="42" rx="14" fill="#1A2A3E"/>
+      <text x="18" y="201" font-family="Arial, sans-serif" font-size="16" fill="#AAB6C8">Prediction stability</text>
+    </g>
+  </g>
+</svg>

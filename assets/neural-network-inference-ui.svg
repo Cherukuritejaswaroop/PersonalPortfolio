@@ -1,0 +1,52 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="28" fill="#0C1220"/>
+  <rect x="36" y="36" width="1328" height="828" rx="24" fill="#10192B" stroke="#21314B" stroke-width="2"/>
+  <text x="86" y="96" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#F5F7FB">Inference Monitoring View</text>
+  <text x="86" y="132" font-family="Arial, sans-serif" font-size="15" letter-spacing="3" fill="#74D7C8">MODEL CONFIDENCE · TRAINING TREND · ACTIVATION PATTERNS</text>
+
+  <g transform="translate(86 180)">
+    <rect width="360" height="154" rx="24" fill="#162236" stroke="#2A3C58" stroke-width="2"/>
+    <text x="28" y="38" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Model Confidence</text>
+    <text x="28" y="96" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#98F5E1">94.6%</text>
+  </g>
+  <g transform="translate(478 180)">
+    <rect width="360" height="154" rx="24" fill="#162236" stroke="#2A3C58" stroke-width="2"/>
+    <text x="28" y="38" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Training Epochs</text>
+    <text x="28" y="96" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#8FB8FF">50</text>
+  </g>
+  <g transform="translate(870 180)">
+    <rect width="360" height="154" rx="24" fill="#162236" stroke="#2A3C58" stroke-width="2"/>
+    <text x="28" y="38" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Accuracy Gain</text>
+    <text x="28" y="96" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#FFD166">+39%</text>
+  </g>
+
+  <g transform="translate(86 382)">
+    <rect width="778" height="416" rx="24" fill="#121C2B" stroke="#293B55" stroke-width="2"/>
+    <text x="28" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#DDE7F1">Accuracy Trend Across Training</text>
+    <g stroke="#26374F" stroke-width="2">
+      <line x1="72" y1="82" x2="72" y2="340"/>
+      <line x1="72" y1="340" x2="720" y2="340"/>
+      <line x1="72" y1="286" x2="720" y2="286"/>
+      <line x1="72" y1="232" x2="720" y2="232"/>
+      <line x1="72" y1="178" x2="720" y2="178"/>
+      <line x1="72" y1="124" x2="720" y2="124"/>
+    </g>
+    <polyline points="84,314 172,270 260,220 348,168 436,132 524,104 612,84 700,70" fill="none" stroke="#6EE7DA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#6EE7DA">
+      <circle cx="84" cy="314" r="7"/><circle cx="172" cy="270" r="7"/><circle cx="260" cy="220" r="7"/><circle cx="348" cy="168" r="7"/>
+      <circle cx="436" cy="132" r="7"/><circle cx="524" cy="104" r="7"/><circle cx="612" cy="84" r="7"/><circle cx="700" cy="70" r="7"/>
+    </g>
+    <text x="510" y="124" font-family="Arial, sans-serif" font-size="15" fill="#AAB6C8">Model improves as weights adapt during training</text>
+  </g>
+
+  <g transform="translate(900 382)">
+    <rect width="330" height="416" rx="24" fill="#121C2B" stroke="#293B55" stroke-width="2"/>
+    <text x="26" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#DDE7F1">Activation Snapshot</text>
+    <g transform="translate(40 88)">
+      <rect width="250" height="54" rx="16" fill="#17273B"/><text x="20" y="34" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Input signals stabilized</text>
+      <rect y="74" width="250" height="54" rx="16" fill="#17273B"/><text x="20" y="108" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Hidden nodes activated</text>
+      <rect y="148" width="250" height="54" rx="16" fill="#17273B"/><text x="20" y="182" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Weights adjusted</text>
+      <rect y="222" width="250" height="54" rx="16" fill="#17273B"/><text x="20" y="256" font-family="Arial, sans-serif" font-size="18" fill="#AAB6C8">Prediction confidence increased</text>
+    </g>
+  </g>
+</svg>

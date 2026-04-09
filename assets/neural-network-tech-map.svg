@@ -1,0 +1,80 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="28" fill="#0F1724"/>
+  <rect x="40" y="40" width="1120" height="640" rx="24" fill="#131D2D" stroke="#22344D" stroke-width="2"/>
+  <text x="80" y="100" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#F5F7FB">Neural Network System View</text>
+  <text x="80" y="132" font-family="Arial, sans-serif" font-size="15" letter-spacing="3" fill="#7ED3C7">INPUTS · HIDDEN LAYERS · PATTERN LEARNING · OUTPUT</text>
+
+  <g transform="translate(90 200)">
+    <rect width="220" height="260" rx="24" fill="#172638" stroke="#2B425F" stroke-width="2"/>
+    <text x="32" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#DDE7F1">Input Signals</text>
+    <g fill="#8FB8FF">
+      <rect x="32" y="74" width="156" height="18" rx="9"/>
+      <rect x="32" y="112" width="134" height="18" rx="9"/>
+      <rect x="32" y="150" width="176" height="18" rx="9"/>
+      <rect x="32" y="188" width="118" height="18" rx="9"/>
+    </g>
+    <g font-family="Arial, sans-serif" font-size="15" fill="#AAB6C8">
+      <text x="32" y="239">Structured or sensory data enters</text>
+      <text x="32" y="262">the model for pattern detection.</text>
+    </g>
+  </g>
+
+  <g transform="translate(380 160)">
+    <rect width="430" height="360" rx="26" fill="#101926" stroke="#2A3A52" stroke-width="2"/>
+    <text x="28" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#DDE7F1">Layered Learning</text>
+    <g stroke="#3B4F6C" stroke-width="2">
+      <line x1="90" y1="80" x2="90" y2="280"/>
+      <line x1="215" y1="80" x2="215" y2="280"/>
+      <line x1="340" y1="80" x2="340" y2="280"/>
+    </g>
+    <g fill="#7B6AF0">
+      <circle cx="90" cy="104" r="16"/>
+      <circle cx="90" cy="170" r="16"/>
+      <circle cx="90" cy="236" r="16"/>
+    </g>
+    <g fill="#4CA5FF">
+      <circle cx="215" cy="88" r="16"/>
+      <circle cx="215" cy="154" r="16"/>
+      <circle cx="215" cy="220" r="16"/>
+      <circle cx="215" cy="286" r="16"/>
+    </g>
+    <g fill="#FFB347">
+      <circle cx="340" cy="120" r="16"/>
+      <circle cx="340" cy="186" r="16"/>
+      <circle cx="340" cy="252" r="16"/>
+    </g>
+    <g stroke="#5A7298" stroke-width="3" opacity=".92">
+      <line x1="106" y1="104" x2="199" y2="88"/>
+      <line x1="106" y1="104" x2="199" y2="154"/>
+      <line x1="106" y1="104" x2="199" y2="220"/>
+      <line x1="106" y1="170" x2="199" y2="88"/>
+      <line x1="106" y1="170" x2="199" y2="154"/>
+      <line x1="106" y1="170" x2="199" y2="220"/>
+      <line x1="106" y1="170" x2="199" y2="286"/>
+      <line x1="106" y1="236" x2="199" y2="154"/>
+      <line x1="106" y1="236" x2="199" y2="220"/>
+      <line x1="106" y1="236" x2="199" y2="286"/>
+      <line x1="231" y1="88" x2="324" y2="120"/>
+      <line x1="231" y1="154" x2="324" y2="120"/>
+      <line x1="231" y1="154" x2="324" y2="186"/>
+      <line x1="231" y1="220" x2="324" y2="186"/>
+      <line x1="231" y1="220" x2="324" y2="252"/>
+      <line x1="231" y1="286" x2="324" y2="252"/>
+    </g>
+    <text x="24" y="330" font-family="Arial, sans-serif" font-size="16" fill="#9DB0C8">Multiple hidden layers learn relationships and strengthen signal interpretation.</text>
+  </g>
+
+  <g transform="translate(880 200)">
+    <rect width="220" height="260" rx="24" fill="#172638" stroke="#2B425F" stroke-width="2"/>
+    <text x="34" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#DDE7F1">Output + Update</text>
+    <rect x="34" y="80" width="152" height="74" rx="18" fill="#233851"/>
+    <text x="110" y="111" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#98F5E1">Prediction</text>
+    <text x="110" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#AAB6C8">Classification / score</text>
+    <rect x="34" y="176" width="152" height="56" rx="18" fill="#25334A"/>
+    <text x="110" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFD166">Feedback Loop</text>
+    <g font-family="Arial, sans-serif" font-size="15" fill="#AAB6C8">
+      <text x="34" y="254">Weights update after each pass</text>
+      <text x="34" y="276">to improve future accuracy.</text>
+    </g>
+  </g>
+</svg>
