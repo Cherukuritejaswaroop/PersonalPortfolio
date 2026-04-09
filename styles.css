@@ -414,11 +414,122 @@ a {
   align-items: start;
 }
 
+.project-showcase-text-only {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
 .project-copy {
   min-width: 0;
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.project-copy-wide-artifact {
+  width: 100%;
+  max-width: none;
+}
+
+.project-copy-wide-artifact p,
+.project-copy-wide-artifact h3 {
+  max-width: none;
+}
+
+.project-card-artifact-text {
+  padding: 1.9rem 1.65rem;
+  border-radius: 28px;
+}
+
+.artifact-points-list {
+  margin: 0;
+  padding-left: 1.35rem;
+}
+
+.artifact-points-list li {
+  font-size: 0.92rem;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.artifact-points-list li + li {
+  margin-top: 0.85rem;
+}
+
+.artifact-points-grid-dark {
+  display: flex;
+  gap: 1.8rem;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1.3rem;
+  align-items: flex-start;
+}
+
+.artifact-points-grid-dark .artifact-points-list {
+  margin: 0;
+  flex: 1 1 50%;
+  width: calc(50% - 1.3rem);
+  max-width: calc(50% - 1.3rem);
+  padding-left: 1.35rem;
+}
+
+.project-card-artifact-text .project-showcase,
+.project-card-artifact-text .project-copy,
+.project-card-artifact-text .artifact-text-panel {
+  width: 100%;
+  max-width: 100%;
+}
+
+.project-card-artifact-text .project-showcase {
+  display: block;
+}
+
+.project-card-artifact-text .project-topline {
+  margin-bottom: 1.35rem;
+}
+
+.project-card-artifact-text .project-tag {
+  padding: 0.9rem 1.2rem;
+  border-radius: 999px;
+}
+
+.project-card-artifact-text h3 {
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  margin-bottom: 1.1rem;
+}
+
+.project-card-artifact-text .project-copy > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  line-height: 1.65;
+}
+
+.artifact-text-panel {
+  width: 100%;
+}
+
+.artifact-text-panel .project-topline {
+  margin-bottom: 1.35rem;
+}
+
+.artifact-text-panel .project-tag {
+  padding: 0.95rem 1.25rem;
+  border-radius: 999px;
+}
+
+.artifact-text-panel h3 {
+  margin: 0 0 1.2rem;
+  max-width: none;
+}
+
+.artifact-intro {
+  margin: 0 0 1.7rem;
+  max-width: none;
+  width: 100%;
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 .project-visual {
@@ -430,6 +541,10 @@ a {
 
 .project-visual-case-study {
   max-width: 440px;
+}
+
+.project-visual-case-study-compact {
+  max-width: 360px;
 }
 
 .visual-shell h4,
@@ -493,6 +608,14 @@ a {
 
 .image-grid-case {
   grid-template-columns: 1fr;
+}
+
+.project-visual-case-study-compact .project-image-card {
+  min-height: 118px;
+}
+
+.project-visual-case-study-compact .project-image-card img {
+  max-height: 150px;
 }
 
 .project-image-card {
@@ -702,6 +825,22 @@ a {
   .highlight-card h2 {
     max-width: 100%;
   }
+
+  .artifact-points-grid-dark {
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .artifact-points-grid-dark .artifact-points-list {
+    width: 100%;
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .artifact-points-list li {
+    white-space: normal;
+  }
+
 }
 
 @media (max-width: 768px) {
