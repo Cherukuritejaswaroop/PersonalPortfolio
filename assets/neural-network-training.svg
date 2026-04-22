@@ -1,52 +1,32 @@
-<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="720" rx="28" fill="#FCFCFD"/>
-  <text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#222222">Neural Network Accuracy Improves Over Training</text>
-
-  <rect x="140" y="160" width="900" height="430" rx="20" fill="#FFFFFF" stroke="#E9EEF2" stroke-width="2"/>
-
-  <g stroke="#DDE5EA" stroke-width="2">
-    <line x1="220" y1="210" x2="220" y2="535"/>
-    <line x1="220" y1="535" x2="960" y2="535"/>
-    <line x1="220" y1="470" x2="960" y2="470"/>
-    <line x1="220" y1="405" x2="960" y2="405"/>
-    <line x1="220" y1="340" x2="960" y2="340"/>
-    <line x1="220" y1="275" x2="960" y2="275"/>
-    <line x1="220" y1="210" x2="960" y2="210"/>
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" rx="36" fill="#F1F6FB"/>
+  <rect x="72" y="84" width="1256" height="694" rx="30" fill="#FBFDFF" stroke="#C7D8E5" stroke-width="3"/>
+  <text x="700" y="146" fill="#17314A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">NEURAL NETWORK TRAINING CYCLE</text>
+  <g stroke="#D7E3ED" stroke-width="2">
+    <path d="M196 686H1222"/>
+    <path d="M196 588H1222"/>
+    <path d="M196 490H1222"/>
+    <path d="M196 392H1222"/>
+    <path d="M196 294H1222"/>
+    <path d="M196 196H1222"/>
   </g>
-
-  <g font-family="Arial, sans-serif" font-size="18" fill="#666666">
-    <text x="184" y="540">50</text>
-    <text x="184" y="475">58</text>
-    <text x="184" y="410">66</text>
-    <text x="184" y="345">74</text>
-    <text x="184" y="280">82</text>
-    <text x="184" y="215">90</text>
-    <text x="220" y="572">1</text>
-    <text x="341" y="572">5</text>
-    <text x="448" y="572">10</text>
-    <text x="573" y="572">20</text>
-    <text x="699" y="572">30</text>
-    <text x="822" y="572">40</text>
-    <text x="944" y="572">50</text>
+  <path d="M236 626C330 608 396 564 470 512C550 456 618 382 700 346C772 314 874 314 970 264C1048 224 1122 198 1180 186" stroke="#2C6980" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="236" cy="626" r="14" fill="#2C6980"/>
+  <circle cx="470" cy="512" r="14" fill="#2C6980"/>
+  <circle cx="700" cy="346" r="14" fill="#2C6980"/>
+  <circle cx="970" cy="264" r="14" fill="#2C6980"/>
+  <circle cx="1180" cy="186" r="14" fill="#2C6980"/>
+  <rect x="188" y="700" width="1040" height="42" rx="20" fill="#E6EFF6"/>
+  <g fill="#244C6D" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+    <text x="236" y="774">EARLY</text>
+    <text x="470" y="774">LEARNING</text>
+    <text x="700" y="774">TUNING</text>
+    <text x="970" y="774">OPTIMIZING</text>
+    <text x="1180" y="774">STABLE</text>
   </g>
-
-  <text x="590" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#555555">Training Epochs</text>
-  <text x="92" y="392" transform="rotate(-90 92 392)" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#555555">Model Accuracy (%)</text>
-
-  <polyline points="224,503 347,438 470,372 595,291 719,250 842,224 957,200" fill="none" stroke="#3D8079" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#3D8079">
-    <circle cx="224" cy="503" r="7"/>
-    <circle cx="347" cy="438" r="7"/>
-    <circle cx="470" cy="372" r="7"/>
-    <circle cx="595" cy="291" r="7"/>
-    <circle cx="719" cy="250" r="7"/>
-    <circle cx="842" cy="224" r="7"/>
-    <circle cx="957" cy="200" r="7"/>
-  </g>
-
-  <g transform="translate(708 158)">
-    <rect width="220" height="52" rx="18" fill="#F4F8F7"/>
-    <text x="110" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#5C7370">Key Insight</text>
-    <text x="110" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6E7C7A">The network improves as it learns patterns</text>
+  <g fill="#556E82" font-family="Arial, sans-serif" font-size="18">
+    <text x="222" y="214" transform="rotate(-90 222 214)">MODEL ACCURACY</text>
+    <text x="892" y="466">As training continues, weights adjust to reduce error</text>
+    <text x="892" y="492">and improve prediction quality across validation checks.</text>
   </g>
 </svg>

@@ -1,57 +1,29 @@
-<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="720" rx="28" fill="#FCFCFD"/>
-  <text x="600" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#222222">How a Neural Network Processes Information</text>
-
-  <g transform="translate(120 210)">
-    <rect width="170" height="150" rx="24" fill="#EFF8F7" stroke="#D4EEEA" stroke-width="3"/>
-    <text x="85" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#3F6D6A">Input</text>
-    <text x="85" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">Raw data enters</text>
-    <text x="85" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">the network</text>
+<svg width="1500" height="920" viewBox="0 0 1500 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1500" height="920" rx="40" fill="#EEF5FB"/>
+  <text x="750" y="92" fill="#17314A" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle">HOW A NEURAL NETWORK PROCESSES INFORMATION</text>
+  <text x="750" y="128" fill="#5B7488" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Input features move through hidden layers, weighted connections, and final output</text>
+  <g stroke="#93B6C7" stroke-width="3" opacity="0.8">
+    <path d="M300 260L620 214"/><path d="M300 260L620 360"/><path d="M300 420L620 214"/><path d="M300 420L620 360"/><path d="M300 420L620 506"/><path d="M300 580L620 360"/><path d="M300 580L620 506"/>
+    <path d="M780 214L1100 176"/><path d="M780 214L1100 322"/><path d="M780 360L1100 176"/><path d="M780 360L1100 322"/><path d="M780 360L1100 468"/><path d="M780 506L1100 322"/><path d="M780 506L1100 468"/><path d="M780 506L1100 614"/>
   </g>
-
-  <g transform="translate(370 160)">
-    <rect width="210" height="250" rx="26" fill="#F2EEFF" stroke="#DCCEF9" stroke-width="3"/>
-    <text x="105" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#6857C8">Hidden Layers</text>
-    <circle cx="70" cy="98" r="14" fill="#8B72F0"/>
-    <circle cx="130" cy="72" r="14" fill="#8B72F0"/>
-    <circle cx="130" cy="124" r="14" fill="#8B72F0"/>
-    <circle cx="70" cy="170" r="14" fill="#8B72F0"/>
-    <circle cx="130" cy="196" r="14" fill="#8B72F0"/>
-    <g stroke="#7B67DA" stroke-width="4">
-      <line x1="70" y1="98" x2="130" y2="72"/>
-      <line x1="70" y1="98" x2="130" y2="124"/>
-      <line x1="70" y1="170" x2="130" y2="124"/>
-      <line x1="70" y1="170" x2="130" y2="196"/>
-      <line x1="130" y1="72" x2="130" y2="124"/>
-      <line x1="130" y1="124" x2="130" y2="196"/>
-    </g>
-    <text x="105" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#5B5B5B">Patterns are learned</text>
+  <g fill="#1F4868" stroke="#7BB7A7" stroke-width="4">
+    <circle cx="250" cy="260" r="48"/><circle cx="250" cy="420" r="48"/><circle cx="250" cy="580" r="48"/>
+    <circle cx="700" cy="214" r="48"/><circle cx="700" cy="360" r="48"/><circle cx="700" cy="506" r="48"/>
+    <circle cx="1150" cy="176" r="48"/><circle cx="1150" cy="322" r="48"/><circle cx="1150" cy="468" r="48"/><circle cx="1150" cy="614" r="48"/>
   </g>
-
-  <g transform="translate(675 210)">
-    <rect width="150" height="150" rx="24" fill="#FFF3E8" stroke="#F3D7BB" stroke-width="3"/>
-    <text x="75" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#D27A2A">Output</text>
-    <text x="75" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">Prediction or</text>
-    <text x="75" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">classification</text>
+  <g fill="#F7FBFF" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="250" y="268">X1</text><text x="250" y="428">X2</text><text x="250" y="588">X3</text>
+    <text x="700" y="222">H1</text><text x="700" y="368">H2</text><text x="700" y="514">H3</text>
+    <text x="1150" y="184">Y1</text><text x="1150" y="330">Y2</text><text x="1150" y="476">Y3</text><text x="1150" y="622">Y4</text>
   </g>
-
-  <g transform="translate(900 190)">
-    <rect width="180" height="190" rx="24" fill="#ECF6FF" stroke="#D0E6F8" stroke-width="3"/>
-    <text x="90" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#4A80E7">Feedback</text>
-    <text x="90" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">Weights update</text>
-    <text x="90" y="121" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">after each pass</text>
-    <text x="90" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">Accuracy improves</text>
-    <text x="90" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#545454">over time</text>
+  <g fill="#244C6D" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+    <text x="250" y="710">INPUT LAYER</text>
+    <text x="700" y="710">HIDDEN LAYER</text>
+    <text x="1150" y="710">OUTPUT LAYER</text>
   </g>
-
-  <g stroke="#2E2E2E" stroke-width="4" stroke-linecap="round">
-    <line x1="290" y1="285" x2="370" y2="285"/>
-    <line x1="580" y1="285" x2="675" y2="285"/>
-    <line x1="825" y1="285" x2="900" y2="285"/>
-  </g>
-  <g fill="#2E2E2E">
-    <path d="M370 285L351 275V295L370 285Z"/>
-    <path d="M675 285L656 275V295L675 285Z"/>
-    <path d="M900 285L881 275V295L900 285Z"/>
+  <g fill="#556E82" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    <text x="250" y="744">Raw features enter the network.</text>
+    <text x="700" y="744">Weighted connections learn patterns.</text>
+    <text x="1150" y="744">Predictions are produced from learned signals.</text>
   </g>
 </svg>

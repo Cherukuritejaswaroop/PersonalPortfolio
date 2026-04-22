@@ -1,49 +1,55 @@
-<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="720" fill="#FFFFFF"/>
-  <text x="600" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1F1D1A">ML vs DL Across Common Decision Factors</text>
-  <text x="80" y="360" transform="rotate(-90 80 360)" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#665D54">Conceptual Strength Score</text>
-  <line x1="140" y1="620" x2="1100" y2="620" stroke="#3F362C" stroke-width="2"/>
-  <line x1="140" y1="130" x2="140" y2="620" stroke="#3F362C" stroke-width="2"/>
-  <g stroke="#D7D1C7" stroke-width="1">
-    <line x1="140" y1="620" x2="1100" y2="620"/>
-    <line x1="140" y1="522" x2="1100" y2="522"/>
-    <line x1="140" y1="424" x2="1100" y2="424"/>
-    <line x1="140" y1="326" x2="1100" y2="326"/>
-    <line x1="140" y1="228" x2="1100" y2="228"/>
-    <line x1="140" y1="130" x2="1100" y2="130"/>
+<svg width="1500" height="920" viewBox="0 0 1500 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1500" height="920" rx="40" fill="#EEF5FB"/>
+  <text x="750" y="88" fill="#17314A" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle">MACHINE LEARNING VS DEEP LEARNING</text>
+  <text x="750" y="124" fill="#5B7488" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Comparing data needs, interpretability, scale, and ideal use cases</text>
+  <rect x="76" y="170" width="610" height="650" rx="34" fill="#F9FCFF" stroke="#C6D8E5" stroke-width="3"/>
+  <rect x="814" y="170" width="610" height="650" rx="34" fill="#F9FCFF" stroke="#C6D8E5" stroke-width="3"/>
+  <rect x="126" y="210" width="510" height="86" rx="24" fill="#1E4767"/>
+  <rect x="864" y="210" width="510" height="86" rx="24" fill="#21506E"/>
+  <text x="381" y="265" fill="#F7FBFF" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">MACHINE LEARNING</text>
+  <text x="1119" y="265" fill="#F7FBFF" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">DEEP LEARNING</text>
+  <g fill="#234B69" stroke="#7CB7A8" stroke-width="4">
+    <rect x="126" y="336" width="226" height="158" rx="28"/>
+    <rect x="410" y="336" width="226" height="158" rx="28"/>
+    <rect x="126" y="534" width="226" height="218" rx="28"/>
+    <rect x="410" y="534" width="226" height="218" rx="28"/>
+    <rect x="864" y="336" width="226" height="158" rx="28"/>
+    <rect x="1148" y="336" width="226" height="158" rx="28"/>
+    <rect x="864" y="534" width="226" height="218" rx="28"/>
+    <rect x="1148" y="534" width="226" height="218" rx="28"/>
   </g>
-  <g font-family="Arial, sans-serif" font-size="18" fill="#665D54">
-    <text x="120" y="626" text-anchor="end">0</text>
-    <text x="120" y="528" text-anchor="end">2</text>
-    <text x="120" y="430" text-anchor="end">4</text>
-    <text x="120" y="332" text-anchor="end">6</text>
-    <text x="120" y="234" text-anchor="end">8</text>
-    <text x="120" y="136" text-anchor="end">10</text>
+  <g fill="#F7FBFF" font-family="Arial, sans-serif">
+    <text x="239" y="388" font-size="22" font-weight="700" text-anchor="middle">BEST WITH</text>
+    <text x="239" y="424" font-size="18" text-anchor="middle">Structured tables,</text>
+    <text x="239" y="450" font-size="18" text-anchor="middle">clear features, smaller data</text>
+    <text x="523" y="388" font-size="22" font-weight="700" text-anchor="middle">STRENGTHS</text>
+    <text x="523" y="424" font-size="18" text-anchor="middle">Faster training, easier</text>
+    <text x="523" y="450" font-size="18" text-anchor="middle">to explain and deploy</text>
+    <text x="239" y="586" font-size="22" font-weight="700" text-anchor="middle">COMMON USES</text>
+    <text x="239" y="622" font-size="18" text-anchor="middle">Sales forecasting</text>
+    <text x="239" y="648" font-size="18" text-anchor="middle">Churn prediction</text>
+    <text x="239" y="674" font-size="18" text-anchor="middle">Fraud detection</text>
+    <text x="523" y="586" font-size="22" font-weight="700" text-anchor="middle">TRADE-OFFS</text>
+    <text x="523" y="622" font-size="18" text-anchor="middle">Needs engineered features</text>
+    <text x="523" y="648" font-size="18" text-anchor="middle">Can plateau on complex inputs</text>
+
+    <text x="977" y="388" font-size="22" font-weight="700" text-anchor="middle">BEST WITH</text>
+    <text x="977" y="424" font-size="18" text-anchor="middle">Images, audio, text,</text>
+    <text x="977" y="450" font-size="18" text-anchor="middle">and very large datasets</text>
+    <text x="1261" y="388" font-size="22" font-weight="700" text-anchor="middle">STRENGTHS</text>
+    <text x="1261" y="424" font-size="18" text-anchor="middle">Learns patterns directly</text>
+    <text x="1261" y="450" font-size="18" text-anchor="middle">from raw complex data</text>
+    <text x="977" y="586" font-size="22" font-weight="700" text-anchor="middle">COMMON USES</text>
+    <text x="977" y="622" font-size="18" text-anchor="middle">Image classification</text>
+    <text x="977" y="648" font-size="18" text-anchor="middle">Speech recognition</text>
+    <text x="977" y="674" font-size="18" text-anchor="middle">Natural language tasks</text>
+    <text x="1261" y="586" font-size="22" font-weight="700" text-anchor="middle">TRADE-OFFS</text>
+    <text x="1261" y="622" font-size="18" text-anchor="middle">Higher compute cost</text>
+    <text x="1261" y="648" font-size="18" text-anchor="middle">Lower interpretability</text>
   </g>
-  <g>
-    <rect x="190" y="179" width="56" height="441" fill="#0F766E"/>
-    <rect x="252" y="375" width="56" height="245" fill="#D97706"/>
-    <rect x="360" y="179" width="56" height="441" fill="#0F766E"/>
-    <rect x="422" y="424" width="56" height="196" fill="#D97706"/>
-    <rect x="530" y="228" width="56" height="392" fill="#0F766E"/>
-    <rect x="592" y="424" width="56" height="196" fill="#D97706"/>
-    <rect x="700" y="473" width="56" height="147" fill="#0F766E"/>
-    <rect x="762" y="130" width="56" height="490" fill="#D97706"/>
-    <rect x="870" y="326" width="56" height="294" fill="#0F766E"/>
-    <rect x="932" y="179" width="56" height="441" fill="#D97706"/>
+  <g stroke="#86B6C9" stroke-width="10" stroke-linecap="round">
+    <path d="M688 494H808"/>
   </g>
-  <g font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">
-    <text x="250" y="662" text-anchor="middle">Structured</text>
-    <text x="250" y="688" text-anchor="middle">Data</text>
-    <text x="420" y="662" text-anchor="middle">Interpretability</text>
-    <text x="590" y="662" text-anchor="middle">Speed</text>
-    <text x="760" y="662" text-anchor="middle">Image Tasks</text>
-    <text x="930" y="662" text-anchor="middle">Scalability</text>
-  </g>
-  <g>
-    <rect x="840" y="92" width="22" height="22" rx="4" fill="#0F766E"/>
-    <text x="874" y="109" font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">Machine Learning</text>
-    <rect x="1030" y="92" width="22" height="22" rx="4" fill="#D97706"/>
-    <text x="1064" y="109" font-family="Arial, sans-serif" font-size="18" fill="#1F1D1A">Deep Learning</text>
-  </g>
+  <polygon points="808,494 784,478 784,510" fill="#86B6C9"/>
+  <text x="748" y="474" fill="#35526A" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">COMPLEXITY INCREASES</text>
 </svg>

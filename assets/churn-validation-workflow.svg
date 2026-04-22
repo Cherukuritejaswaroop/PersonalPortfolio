@@ -1,0 +1,50 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" rx="36" fill="#F1F6FB"/>
+  <rect x="72" y="84" width="1256" height="694" rx="30" fill="#FBFDFF" stroke="#C7D8E5" stroke-width="3"/>
+  <text x="700" y="146" fill="#17314A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">CHURN VALIDATION WORKFLOW</text>
+  <text x="700" y="180" fill="#5B7488" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">How preprocessing, splitting, and evaluation support reliable churn prediction</text>
+
+  <g fill="#214968" stroke="#7CB7A7" stroke-width="4">
+    <rect x="138" y="270" width="210" height="150" rx="28"/>
+    <rect x="396" y="270" width="210" height="150" rx="28"/>
+    <rect x="654" y="270" width="210" height="150" rx="28"/>
+    <rect x="912" y="270" width="210" height="150" rx="28"/>
+    <rect x="1160" y="270" width="110" height="150" rx="28"/>
+    <rect x="336" y="536" width="728" height="126" rx="30"/>
+  </g>
+
+  <g stroke="#86B6C9" stroke-width="12" stroke-linecap="round">
+    <path d="M348 345H396"/>
+    <path d="M606 345H654"/>
+    <path d="M864 345H912"/>
+    <path d="M1122 345H1160"/>
+  </g>
+  <polygon points="396,345 368,329 368,361" fill="#86B6C9"/>
+  <polygon points="654,345 626,329 626,361" fill="#86B6C9"/>
+  <polygon points="912,345 884,329 884,361" fill="#86B6C9"/>
+  <polygon points="1160,345 1132,329 1132,361" fill="#86B6C9"/>
+
+  <g fill="#F7FBFF" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="243" y="330" font-size="22" font-weight="700">CLEAN DATA</text>
+    <text x="501" y="330" font-size="22" font-weight="700">HANDLE IMBALANCE</text>
+    <text x="759" y="330" font-size="22" font-weight="700">SPLIT DATA</text>
+    <text x="1017" y="330" font-size="22" font-weight="700">TRAIN MODEL</text>
+    <text x="1215" y="330" font-size="22" font-weight="700">EVALUATE</text>
+    <text x="700" y="590" font-size="26" font-weight="700">WHY IT MATTERS</text>
+  </g>
+
+  <g fill="#D6E5F0" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">
+    <text x="243" y="366">Impute missing values</text>
+    <text x="243" y="390">and control outliers.</text>
+    <text x="501" y="366">Use SMOTE so churn</text>
+    <text x="501" y="390">cases are learned fairly.</text>
+    <text x="759" y="366">Separate train, validation,</text>
+    <text x="759" y="390">and test evaluation.</text>
+    <text x="1017" y="366">Fit Random Forest on</text>
+    <text x="1017" y="390">prepared features.</text>
+    <text x="1215" y="366">Review precision, recall,</text>
+    <text x="1215" y="390">and confusion matrix.</text>
+    <text x="700" y="626">A reliable churn model depends on disciplined preprocessing, clean validation,</text>
+    <text x="700" y="650">and careful review of false negatives before deployment.</text>
+  </g>
+</svg>

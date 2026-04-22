@@ -1,0 +1,78 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" rx="36" fill="#F1F6FB"/>
+  <rect x="72" y="84" width="1256" height="694" rx="30" fill="#FBFDFF" stroke="#C7D8E5" stroke-width="3"/>
+  <text x="700" y="146" fill="#17314A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">NEURAL NETWORK LAYER FLOW</text>
+  <text x="700" y="180" fill="#5B7488" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Inputs move through hidden layers to produce a prediction</text>
+
+  <g stroke="#A2BDD0" stroke-width="3" opacity="0.85">
+    <path d="M280 290L544 238"/>
+    <path d="M280 290L544 348"/>
+    <path d="M280 290L544 458"/>
+    <path d="M280 406L544 238"/>
+    <path d="M280 406L544 348"/>
+    <path d="M280 406L544 458"/>
+    <path d="M280 522L544 238"/>
+    <path d="M280 522L544 348"/>
+    <path d="M280 522L544 458"/>
+    <path d="M596 238L836 204"/>
+    <path d="M596 238L836 314"/>
+    <path d="M596 238L836 424"/>
+    <path d="M596 348L836 204"/>
+    <path d="M596 348L836 314"/>
+    <path d="M596 348L836 424"/>
+    <path d="M596 458L836 204"/>
+    <path d="M596 458L836 314"/>
+    <path d="M596 458L836 424"/>
+    <path d="M888 204L1110 260"/>
+    <path d="M888 314L1110 260"/>
+    <path d="M888 424L1110 260"/>
+    <path d="M888 204L1110 428"/>
+    <path d="M888 314L1110 428"/>
+    <path d="M888 424L1110 428"/>
+  </g>
+
+  <g fill="#1F4868" stroke="#7CB7A7" stroke-width="4">
+    <circle cx="228" cy="290" r="36"/>
+    <circle cx="228" cy="406" r="36"/>
+    <circle cx="228" cy="522" r="36"/>
+    <circle cx="570" cy="238" r="36"/>
+    <circle cx="570" cy="348" r="36"/>
+    <circle cx="570" cy="458" r="36"/>
+    <circle cx="862" cy="204" r="36"/>
+    <circle cx="862" cy="314" r="36"/>
+    <circle cx="862" cy="424" r="36"/>
+    <circle cx="1136" cy="260" r="36"/>
+    <circle cx="1136" cy="428" r="36"/>
+  </g>
+
+  <g fill="#F7FBFF" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="228" y="298">X1</text>
+    <text x="228" y="414">X2</text>
+    <text x="228" y="530">X3</text>
+    <text x="570" y="246">H1</text>
+    <text x="570" y="356">H2</text>
+    <text x="570" y="466">H3</text>
+    <text x="862" y="212">H4</text>
+    <text x="862" y="322">H5</text>
+    <text x="862" y="432">H6</text>
+    <text x="1136" y="268">Y1</text>
+    <text x="1136" y="436">Y2</text>
+  </g>
+
+  <g fill="#244C6D" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+    <text x="228" y="618">INPUT FEATURES</text>
+    <text x="570" y="618">HIDDEN LAYER 1</text>
+    <text x="862" y="618">HIDDEN LAYER 2</text>
+    <text x="1136" y="618">OUTPUTS</text>
+  </g>
+
+  <g fill="#556E82" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    <text x="228" y="654">Raw values enter the network.</text>
+    <text x="570" y="654">Weighted combinations begin</text>
+    <text x="570" y="678">to identify useful signals.</text>
+    <text x="862" y="654">Deeper layers capture more</text>
+    <text x="862" y="678">abstract patterns and relationships.</text>
+    <text x="1136" y="654">The final layer converts</text>
+    <text x="1136" y="678">learned signals into predictions.</text>
+  </g>
+</svg>

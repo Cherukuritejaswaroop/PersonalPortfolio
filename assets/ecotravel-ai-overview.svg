@@ -1,0 +1,59 @@
+<svg width="1500" height="920" viewBox="0 0 1500 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1500" height="920" rx="40" fill="#EEF7F3"/>
+  <text x="750" y="88" fill="#17314A" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle">ECOTRAVEL AI</text>
+  <text x="750" y="124" fill="#557486" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">A sustainability-focused travel assistant for greener decisions and better itinerary planning</text>
+  <g fill="#FBFEFC" stroke="#C8DDD4" stroke-width="3">
+    <rect x="86" y="176" width="410" height="586" rx="34"/>
+    <rect x="544" y="176" width="382" height="586" rx="34"/>
+    <rect x="974" y="176" width="440" height="586" rx="34"/>
+  </g>
+  <g fill="#204B67" font-family="Arial, sans-serif">
+    <text x="291" y="232" font-size="24" font-weight="700" text-anchor="middle">TRAVELER INPUT</text>
+    <text x="735" y="232" font-size="24" font-weight="700" text-anchor="middle">AI RESPONSE ENGINE</text>
+    <text x="1194" y="232" font-size="24" font-weight="700" text-anchor="middle">SUSTAINABLE OUTPUTS</text>
+  </g>
+  <g fill="#234B69" stroke="#7CB7A7" stroke-width="4">
+    <rect x="132" y="280" width="318" height="128" rx="26"/>
+    <rect x="132" y="446" width="318" height="128" rx="26"/>
+    <rect x="132" y="612" width="318" height="108" rx="26"/>
+    <rect x="590" y="300" width="290" height="122" rx="26"/>
+    <rect x="590" y="468" width="290" height="122" rx="26"/>
+    <rect x="1020" y="280" width="348" height="128" rx="26"/>
+    <rect x="1020" y="446" width="348" height="128" rx="26"/>
+    <rect x="1020" y="612" width="348" height="108" rx="26"/>
+  </g>
+  <g fill="#F7FBFF" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="291" y="332" font-size="22" font-weight="700">DESTINATION + DATES</text>
+    <text x="291" y="366" font-size="18">Trip goals, budget, and interests</text>
+    <text x="291" y="498" font-size="22" font-weight="700">TRAVEL PREFERENCES</text>
+    <text x="291" y="532" font-size="18">Low-carbon transport, eco stays,</text>
+    <text x="291" y="558" font-size="18">nature-friendly activities</text>
+    <text x="291" y="658" font-size="22" font-weight="700">USER QUESTIONS</text>
+    <text x="291" y="690" font-size="18">"What is the greener route?"</text>
+
+    <text x="735" y="352" font-size="22" font-weight="700">PROMPT DESIGN</text>
+    <text x="735" y="386" font-size="18">Turns open-ended requests into</text>
+    <text x="735" y="412" font-size="18">structured travel guidance</text>
+    <text x="735" y="520" font-size="22" font-weight="700">RELEVANCE + CLARITY</text>
+    <text x="735" y="554" font-size="18">Balances user needs with</text>
+    <text x="735" y="580" font-size="18">sustainability signals</text>
+
+    <text x="1194" y="332" font-size="22" font-weight="700">LOW-IMPACT ITINERARY</text>
+    <text x="1194" y="366" font-size="18">Eco transport, local experiences,</text>
+    <text x="1194" y="392" font-size="18">and practical route options</text>
+    <text x="1194" y="498" font-size="22" font-weight="700">BETTER DECISIONS</text>
+    <text x="1194" y="532" font-size="18">Compares greener choices in a</text>
+    <text x="1194" y="558" font-size="18">simple conversational format</text>
+    <text x="1194" y="658" font-size="22" font-weight="700">USER-CENTERED EXPERIENCE</text>
+    <text x="1194" y="690" font-size="18">Clear, actionable, and easy to follow</text>
+  </g>
+  <g stroke="#88B8C7" stroke-width="12" stroke-linecap="round">
+    <path d="M450 470H560"/>
+    <path d="M880 470H990"/>
+  </g>
+  <polygon points="560,470 534,454 534,486" fill="#88B8C7"/>
+  <polygon points="990,470 964,454 964,486" fill="#88B8C7"/>
+  <g fill="#5A7284" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    <text x="750" y="814">EcoTravel AI connects traveler intent, prompt engineering, and sustainability-aware recommendations.</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="36" fill="#EFF5FA"/>
+  <rect x="38" y="38" width="1324" height="824" rx="30" fill="#F9FCFF" stroke="#C4D6E4" stroke-width="3"/>
+  <text x="700" y="92" fill="#17314A" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle">AI ADOPTION READINESS SIGNALS</text>
+  <text x="700" y="126" fill="#53718A" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Communication, governance, support, and business alignment</text>
+  <g fill="#1D4667" stroke="#74B8A4" stroke-width="4">
+    <circle cx="260" cy="310" r="110"/>
+    <circle cx="520" cy="260" r="90"/>
+    <circle cx="700" cy="452" r="120"/>
+    <circle cx="944" cy="250" r="92"/>
+    <circle cx="1146" cy="360" r="104"/>
+    <circle cx="468" cy="668" r="94"/>
+    <circle cx="930" cy="660" r="106"/>
+  </g>
+  <g stroke="#9EC4D6" stroke-width="8" stroke-linecap="round">
+    <path d="M346 282L432 272"/>
+    <path d="M582 302L638 374"/>
+    <path d="M790 390L872 286"/>
+    <path d="M1030 286L1064 320"/>
+    <path d="M610 556L548 618"/>
+    <path d="M786 556L860 618"/>
+  </g>
+  <g fill="#F8FBFF" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="260" y="300" font-size="22" font-weight="700">COMMUNICATION</text>
+    <text x="260" y="332" font-size="22" font-weight="700">&amp; TRUST</text>
+    <text x="520" y="254" font-size="20" font-weight="700">CHANGE</text>
+    <text x="520" y="282" font-size="20" font-weight="700">SUPPORT</text>
+    <text x="700" y="444" font-size="28" font-weight="700">LEADERSHIP</text>
+    <text x="700" y="480" font-size="28" font-weight="700">READINESS</text>
+    <text x="944" y="246" font-size="20" font-weight="700">BUSINESS</text>
+    <text x="944" y="274" font-size="20" font-weight="700">ALIGNMENT</text>
+    <text x="1146" y="352" font-size="22" font-weight="700">GOVERNANCE</text>
+    <text x="1146" y="384" font-size="22" font-weight="700">PLANNING</text>
+    <text x="468" y="662" font-size="20" font-weight="700">TRAINING</text>
+    <text x="468" y="690" font-size="20" font-weight="700">CAPABILITY</text>
+    <text x="930" y="652" font-size="22" font-weight="700">MEASUREMENT</text>
+    <text x="930" y="684" font-size="22" font-weight="700">&amp; MONITORING</text>
+  </g>
+  <g fill="#556E82" font-family="Arial, sans-serif" font-size="16">
+    <text x="128" y="512">Teams understand the purpose,</text>
+    <text x="128" y="536">impact, and expectations of AI work.</text>
+    <text x="396" y="148">Adoption improves when employees</text>
+    <text x="396" y="172">receive guidance through transition.</text>
+    <text x="816" y="146">AI projects should connect to</text>
+    <text x="816" y="170">business value and stakeholder needs.</text>
+    <text x="1030" y="540">Defined ownership, policies, and</text>
+    <text x="1030" y="564">decision rights reduce rollout friction.</text>
+    <text x="286" y="816">Training keeps teams confident, current, and able to adopt responsibly.</text>
+    <text x="804" y="816">Metrics help monitor adoption quality, risk, and long-term effectiveness.</text>
+  </g>
+</svg>

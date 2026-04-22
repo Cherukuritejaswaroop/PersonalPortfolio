@@ -1,0 +1,31 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" rx="36" fill="#F1F6FB"/>
+  <rect x="72" y="84" width="1256" height="694" rx="30" fill="#FCFEFF" stroke="#C7D8E5" stroke-width="3"/>
+  <text x="700" y="146" fill="#17314A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">POST-DEPLOYMENT MONITORING &amp; VERIFICATION</text>
+  <g fill="#234B69" stroke="#7BB7A7" stroke-width="4">
+    <rect x="138" y="220" width="260" height="180" rx="28"/>
+    <rect x="456" y="220" width="260" height="180" rx="28"/>
+    <rect x="774" y="220" width="260" height="180" rx="28"/>
+    <rect x="1092" y="220" width="170" height="180" rx="28"/>
+    <rect x="258" y="500" width="352" height="180" rx="28"/>
+    <rect x="790" y="500" width="352" height="180" rx="28"/>
+  </g>
+  <g fill="#F7FBFF" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="268" y="280" font-size="22" font-weight="700">MODEL DRIFT</text>
+    <text x="586" y="280" font-size="22" font-weight="700">FAIRNESS CHECKS</text>
+    <text x="904" y="280" font-size="22" font-weight="700">PRIVACY REVIEW</text>
+    <text x="1177" y="280" font-size="22" font-weight="700">ALERTS</text>
+    <text x="434" y="560" font-size="22" font-weight="700">PERFORMANCE TRACKING</text>
+    <text x="966" y="560" font-size="22" font-weight="700">BUSINESS ACTION LOOP</text>
+  </g>
+  <g fill="#D6E5F0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    <text x="268" y="328">Watch for changes in</text><text x="268" y="354">customer behavior patterns</text>
+    <text x="586" y="328">Review whether outcomes</text><text x="586" y="354">stay equitable and explainable</text>
+    <text x="904" y="328">Ensure data use remains</text><text x="904" y="354">responsible and controlled</text>
+    <text x="1177" y="328">Notify teams when</text><text x="1177" y="354">quality drops</text>
+    <text x="434" y="608">Precision, recall, and false-negative trends</text>
+    <text x="434" y="634">show whether the model is still trustworthy.</text>
+    <text x="966" y="608">Monitoring should lead to model review,</text>
+    <text x="966" y="634">retention action, or retraining.</text>
+  </g>
+</svg>

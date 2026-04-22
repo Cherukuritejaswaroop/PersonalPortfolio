@@ -1,0 +1,47 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="860" rx="36" fill="#F1F6FB"/>
+  <rect x="72" y="84" width="1256" height="694" rx="30" fill="#FBFDFF" stroke="#C7D8E5" stroke-width="3"/>
+  <text x="700" y="146" fill="#17314A" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">LEARNING THROUGH FEEDBACK</text>
+  <text x="700" y="180" fill="#5B7488" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Prediction, error measurement, and weight updates improve the model over time</text>
+
+  <g fill="#214968" stroke="#7CB7A7" stroke-width="4">
+    <rect x="150" y="270" width="220" height="140" rx="28"/>
+    <rect x="440" y="270" width="220" height="140" rx="28"/>
+    <rect x="730" y="270" width="220" height="140" rx="28"/>
+    <rect x="1020" y="270" width="220" height="140" rx="28"/>
+    <rect x="500" y="536" width="400" height="150" rx="32"/>
+  </g>
+
+  <g stroke="#86B6C9" stroke-width="12" stroke-linecap="round">
+    <path d="M370 340H440"/>
+    <path d="M660 340H730"/>
+    <path d="M950 340H1020"/>
+    <path d="M1128 410C1120 506 1028 588 900 608"/>
+    <path d="M500 608C360 586 270 494 258 410"/>
+  </g>
+  <polygon points="440,340 414,324 414,356" fill="#86B6C9"/>
+  <polygon points="730,340 704,324 704,356" fill="#86B6C9"/>
+  <polygon points="1020,340 994,324 994,356" fill="#86B6C9"/>
+  <polygon points="892,624 926,610 896,592" fill="#86B6C9"/>
+  <polygon points="274,410 258,442 290,438" fill="#86B6C9"/>
+
+  <g fill="#F7FBFF" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="260" y="326" font-size="22" font-weight="700">FORWARD PASS</text>
+    <text x="550" y="326" font-size="22" font-weight="700">PREDICTION</text>
+    <text x="840" y="326" font-size="22" font-weight="700">ERROR CHECK</text>
+    <text x="1130" y="326" font-size="22" font-weight="700">WEIGHT UPDATE</text>
+    <text x="700" y="588" font-size="26" font-weight="700">REPEAT TRAINING CYCLE</text>
+  </g>
+
+  <g fill="#D6E5F0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    <text x="260" y="364">Inputs pass through the network</text>
+    <text x="260" y="390">to produce an output.</text>
+    <text x="550" y="364">The model generates a value</text>
+    <text x="550" y="390">for the current example.</text>
+    <text x="840" y="364">Prediction is compared with</text>
+    <text x="840" y="390">the expected answer.</text>
+    <text x="1130" y="364">Weights shift slightly so the</text>
+    <text x="1130" y="390">next prediction is better.</text>
+    <text x="700" y="628">Repeated feedback reduces error and gradually improves learning quality.</text>
+  </g>
+</svg>
