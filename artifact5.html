@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact 5 | Teja Swaroop Cherukuri</title>
+  <meta name="description" content="Artifact 5 model validation and verification page for Teja Swaroop Cherukuri.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">TS</span>
+        <span class="brand-text">Teja Swaroop Cherukuri</span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="artifact1.html">Artifact 1</a>
+        <a href="artifact2.html">Artifact 2</a>
+        <a href="artifact3.html">Artifact 3</a>
+        <a href="artifact4.html">Artifact 4</a>
+        <a href="artifact5.html">Artifact 5</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="artifact-page-main">
+      <section class="artifact-page-layout reveal is-visible">
+        <article class="artifact-page-card artifact-page-hero">
+          <div class="artifact-page-intro">
+            <p class="eyebrow">Artifact 5</p>
+            <h1>Model Validation and Verification: E-Commerce Customer Churn Prediction</h1>
+            <p>
+              This artifact focuses on validating a churn prediction model for an e-commerce platform and shows how preprocessing,
+              evaluation strategy, and monitoring improve trust in model outputs.
+            </p>
+          </div>
+          <div class="artifact-page-visual artifact-page-visual-hero">
+            <img src="assets/artifact5-churn-hero.png" alt="Customer churn validation dashboard showing split strategy, precision, and confusion matrix focus">
+          </div>
+        </article>
+
+        <div class="artifact-page-content">
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Artifact Information</h2>
+            <p>
+              This artifact presents an e-commerce churn prediction project through the lens of model validation and verification, with emphasis on reliability,
+              evaluation metrics, and responsible post-deployment monitoring.
+            </p>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Introduction</h2>
+            <p>
+              The goal of this project was to predict customer churn for a growing e-commerce platform so that at-risk customers could be identified early and supported through retention strategies such as targeted offers.
+            </p>
+            <p>
+              The artifact emphasizes that a successful machine learning solution is not defined by accuracy alone, but by how carefully the model is validated before being trusted in a real business context.
+            </p>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Description</h2>
+            <p>
+              The project used customer behavioral and transactional features to predict whether a customer was likely to churn. Data preprocessing included handling missing values,
+              controlling outliers, and balancing classes with SMOTE so that the model would not simply overpredict the majority class.
+            </p>
+            <p>
+              A Random Forest Classifier was selected because it handles non-linear relationships well and offers stronger protection against overfitting than a single decision tree.
+              The model was validated using a 70/15/15 training, validation, and test split so that tuning could happen without leaking information from final evaluation.
+            </p>
+            <div class="artifact-page-section-media">
+              <div class="artifact-page-grid">
+                <div class="artifact-page-visual artifact-page-visual-support">
+                  <img src="assets/churn-monitoring-matrix.svg" alt="Monitoring and verification visual showing model decay tracking, ethical review, and validation focus">
+                </div>
+                <div class="artifact-page-visual artifact-page-visual-support">
+                  <img src="assets/churn-validation-workflow.svg" alt="Workflow diagram showing preprocessing, validation split, model training, and evaluation steps for churn prediction">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Objective</h2>
+            <ul>
+              <li>Predict customer churn before disengagement becomes final</li>
+              <li>Reduce the business cost of missed churn cases</li>
+              <li>Validate the model carefully before deployment</li>
+            </ul>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Process</h2>
+            <ul>
+              <li>Handled missing values with median imputation for tenure and warehouse-to-home distance</li>
+              <li>Managed outliers in yearly spending by capping extreme values at the 99th percentile</li>
+              <li>Applied SMOTE to address class imbalance in churn outcomes</li>
+              <li>Used a Random Forest Classifier for non-linear churn behavior</li>
+              <li>Split the dataset into training, validation, and test sets using a 70/15/15 strategy</li>
+              <li>Evaluated the model through precision, recall, and confusion-matrix results with special attention to false negatives</li>
+              <li>Considered bias, fairness, privacy, and post-deployment monitoring as part of the validation plan</li>
+            </ul>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Tools and Technologies Used</h2>
+            <div class="artifact-tags">
+              <span class="artifact-tag">Python</span>
+              <span class="artifact-tag">Scikit-learn</span>
+              <span class="artifact-tag">Random Forest</span>
+              <span class="artifact-tag">SMOTE</span>
+              <span class="artifact-tag">Confusion Matrix</span>
+              <span class="artifact-tag">Model Validation</span>
+            </div>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Value Proposition</h2>
+            <p>
+              This artifact shows that building a useful machine learning solution means validating it carefully, monitoring performance over time, and understanding business risk when errors occur.
+            </p>
+            <p><strong>Unique Value:</strong> Connects churn prediction with validation, ethics, and business-focused reliability.</p>
+            <p><strong>Relevance:</strong> Useful for AI, analytics, and decision-support roles where model trust and performance matter.</p>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Reflection</h2>
+            <p>
+              This project strengthened my understanding that a successful model is not just one with high precision. It must also use a proper validation strategy,
+              reduce costly false negatives, and account for fairness, privacy, and model decay after deployment.
+            </p>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>References</h2>
+            <p>
+              AssemblyAI. (2022). How to evaluate ML models; Galaxy Inferno Codes. (2022). Validation data: How it works and why you need it;
+              Misra Turp. (2023). Why do we split data into train, test, and validation sets?; Underfitted. (2022). The confusion matrix in machine learning.
+            </p>
+          </article>
+
+          <div class="artifact-page-footer-actions">
+            <a class="button button-secondary" href="index.html">Back to Portfolio</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
