@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifact 7 | Teja Swaroop Cherukuri</title>
+  <meta name="description" content="Artifact 7 neural network components presentation by Teja Swaroop Cherukuri.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">TS</span>
+        <span class="brand-text">Teja Swaroop Cherukuri</span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="artifact1.html">Artifact 1</a>
+        <a href="artifact2.html">Artifact 2</a>
+        <a href="artifact3.html">Artifact 3</a>
+        <a href="artifact4.html">Artifact 4</a>
+        <a href="artifact5.html">Artifact 5</a>
+        <a href="artifact6.html">Artifact 6</a>
+        <a href="artifact7.html">Artifact 7</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="artifact-page-main">
+      <section class="artifact-page-layout reveal is-visible">
+        <article class="artifact-page-card artifact-page-hero">
+          <div class="artifact-page-intro">
+            <p class="eyebrow">Artifact 7</p>
+            <h1>Inside a Neural Network: Six Components, One Learning Loop</h1>
+            <p>
+              A 13-slide visual presentation that explains the six building blocks of a neural network and tests them through my own experiments
+              in the TensorFlow Neural Network Playground.
+            </p>
+            <div class="artifact-page-links">
+              <a class="button button-primary" href="assets/artifact7-neural-network-components.pdf" target="_blank" rel="noopener">View Slides (PDF)</a>
+              <a class="button button-secondary" href="assets/artifact7-neural-network-components.pptx" download>Download PowerPoint</a>
+            </div>
+          </div>
+          <div class="artifact-page-visual artifact-page-visual-hero">
+            <img src="assets/artifact7-slide-02.jpg" alt="Slide showing data flowing from two inputs through hidden layers of 4 and 2 neurons to one output">
+          </div>
+        </article>
+
+        <div class="artifact-page-content">
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Artifact Information</h2>
+            <p>
+              This artifact is a visual presentation that defines layers, neurons, weights, activation functions, loss functions, and optimization algorithms,
+              shows how they work together as one learning loop, and reports the results of five experiments I ran in the TensorFlow Playground.
+            </p>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Introduction</h2>
+            <p>
+              Neural networks power image recognition, language models, and many prediction systems, but their inner workings can feel like a black box.
+              This presentation opens that box one component at a time, using diagrams, calculated examples, and real training results instead of long text.
+            </p>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Description</h2>
+            <p>
+              The deck starts with an architecture diagram showing how data flows from the input layer through two hidden layers to the output, matching
+              the Playground's default network (2 inputs, 4 and 2 hidden neurons, 1 output). One slide is given to each of the six components, each with a
+              definition, its role, and a visual: a worked neuron calculation, activation curves plotted from their formulas, a cross-entropy loss chart,
+              and a gradient descent chart comparing learning rates of 0.3 and 1.1.
+            </p>
+            <p>
+              The final section connects the components into the learning loop and presents my own Playground results. Across five runs, test loss ranged
+              from 0.004 on clean circle data to 0.474 on spiral data with a Linear activation, and a larger network (four hidden layers of 6 neurons)
+              reduced spiral test loss from 0.452 to 0.295.
+            </p>
+            <div class="artifact-page-section-media" style="grid-template-columns:repeat(auto-fit,minmax(18rem,1fr))">
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-01.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-01.jpg" alt="Slide 1: Inside a Neural Network, title slide" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-02.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-02.jpg" alt="Slide 2: How data flows through a network" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-03.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-03.jpg" alt="Slide 3: Layers" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-04.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-04.jpg" alt="Slide 4: Neurons" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-05.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-05.jpg" alt="Slide 5: Weights" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-06.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-06.jpg" alt="Slide 6: Activation functions" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-07.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-07.jpg" alt="Slide 7: Loss functions" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-08.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-08.jpg" alt="Slide 8: Optimization algorithms" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-09.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-09.jpg" alt="Slide 9: The learning loop" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-10.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-10.jpg" alt="Slide 10: My Playground experiments" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-11.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-11.jpg" alt="Slide 11: What my experiments showed" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-12.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-12.jpg" alt="Slide 12: Summary" loading="lazy"></a></div>
+              <div class="artifact-page-visual"><a href="assets/artifact7-slide-13.jpg" target="_blank" rel="noopener"><img style="max-height:none" src="assets/artifact7-slide-13.jpg" alt="Slide 13: References" loading="lazy"></a></div>
+            </div>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Objective</h2>
+            <ul>
+              <li>Clearly define and describe the six key components of a neural network</li>
+              <li>Visually show how data flows from the input layer through hidden layers to the output</li>
+              <li>Test how noise, network size, and activation functions affect training, using real experiments</li>
+              <li>Explain complex AI concepts concisely for both technical and non-technical audiences</li>
+            </ul>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Process</h2>
+            <ul>
+              <li>Reviewed course resources and Google's Machine Learning Crash Course on neural networks</li>
+              <li>Ran five experiments in the TensorFlow Playground, changing one setting at a time: noise, dataset, network size, and activation function</li>
+              <li>Recorded the exact settings, epoch, training loss, and test loss of every run from my screenshots</li>
+              <li>Designed one slide per component, each with a diagram or chart, using the Playground's colors (teal for positive weights, orange for negative)</li>
+              <li>Calculated every example chart from its formula and labeled illustrative diagrams so nothing is presented as a result that was not measured</li>
+              <li>Checked every number on the slides against my screenshots and cited each source on the slide where it is used</li>
+            </ul>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Tools and Technologies Used</h2>
+            <div class="artifact-tags">
+              <span class="artifact-tag">TensorFlow Playground</span>
+              <span class="artifact-tag">PowerPoint (.pptx)</span>
+              <span class="artifact-tag">Claude (AI Assistant)</span>
+              <span class="artifact-tag">Data Visualization</span>
+              <span class="artifact-tag">Information Design</span>
+            </div>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>Value Proposition</h2>
+            <p>
+              This artifact shows that I can learn a technical system hands-on, test it with controlled experiments, and explain what I found in a short,
+              visual way that decision-makers can follow.
+            </p>
+            <p><strong>Unique Value:</strong> While my previous artifact compared many algorithms at a high level, this one goes deep into a single model type and backs its explanations with my own measured results, showing experimentation as well as explanation.</p>
+            <p><strong>Relevance:</strong> Data analysis and AI roles regularly require explaining how a model works and why it performs well or poorly. Presenting results with clear charts and plain language is the same skill used in dashboard design and stakeholder reporting.</p>
+          </article>
+
+          <article class="artifact-page-card artifact-section-card">
+            <h2>References</h2>
+            <p>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). <em>Deep learning</em>. MIT Press. <a href="https://www.deeplearningbook.org/" target="_blank" rel="noopener">https://www.deeplearningbook.org/</a></p>
+            <p>Google for Developers. (2025, August 25). <em>Neural networks</em>. Machine Learning Crash Course. <a href="https://developers.google.com/machine-learning/crash-course/neural-networks" target="_blank" rel="noopener">https://developers.google.com/machine-learning/crash-course/neural-networks</a></p>
+            <p>Kingma, D. P., &amp; Ba, J. (2015). Adam: A method for stochastic optimization. In <em>Proceedings of the 3rd International Conference on Learning Representations</em>. <a href="https://arxiv.org/abs/1412.6980" target="_blank" rel="noopener">https://arxiv.org/abs/1412.6980</a></p>
+            <p>Smilkov, D., &amp; Carter, S. (n.d.). <em>A neural network playground</em> [Online tool]. TensorFlow. Retrieved November 7, 2026, from <a href="https://playground.tensorflow.org/" target="_blank" rel="noopener">https://playground.tensorflow.org/</a></p>
+          </article>
+
+          <div class="artifact-page-footer-actions">
+            <a class="button button-secondary" href="index.html">Back to Portfolio</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
